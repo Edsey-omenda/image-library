@@ -10,6 +10,7 @@ function App() {
 
   const[images, setImages] = useState([])
   const[error, setError] = useState("")
+  const [isLoading, setIsLoading] = useState(true)
 
   useEffect(() =>{
       
@@ -23,10 +24,13 @@ function App() {
           setError(null)
       } catch (err) {
           setError(err.message)
-      } 
+      } finally {
+        setIsLoading(false)
+      }
     }
-    
-    fetchImages()
+    setTimeout(() => {
+      (async () => await fetchImages())()
+    }, 1000);
     
   }, [])
 
@@ -34,6 +38,7 @@ function App() {
   return (
     <>
       <Header  title="Sales At Work Image Library" />
+      {isLoading  && <p>Loading Images...</p>}
       <ImageList 
         images={images}
       />
