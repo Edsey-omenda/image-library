@@ -6,7 +6,7 @@ import Header from './Components/Header'
 
 function App() {
 
-  const API_URL = "http://localhost:3000/images"
+  // const API_URL = "http://localhost:3000/images"
 
   const[images, setImages] = useState( [
     {

@@ -80,6 +80,10 @@ footer {
   filter: opacity(0.8);
 }
 
+ul > li > h3{
+  color: orange;
+}
+
 /* Adding responsiveness to the application */
 
 @media (max-width: 992px){
