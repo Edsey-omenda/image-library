@@ -49,7 +49,7 @@ const ImageLIst = ({ images }) => {
             <h3>{image.name}</h3>
             <img 
                 src={image.imageUrl}
-                style={{width: "100%"}}
+                style={{width: "100%", height: "75%"}}
             />
            </li>
         ))} 
