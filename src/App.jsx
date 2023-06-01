@@ -34,10 +34,9 @@ function App() {
   return (
     <>
       <Header  title="Sales At Work Image Library" />
-      {/* <ImageList 
-        images={images}
+      <ImageList 
         
-      /> */}
+      />
       <Footer />
     </>
   )
