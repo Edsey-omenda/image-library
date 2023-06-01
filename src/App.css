@@ -2,7 +2,6 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  background-color: aliceblue;;
 }
 
 html {
@@ -66,6 +65,7 @@ footer {
   -moz-column-width: 33%;
   column-width: 33%;
   padding: 0 12px;
+  background-color: aliceblue;
 }
 
 .images .pics{
@@ -138,8 +138,7 @@ footer {
   padding-left: 50px;
   margin: auto;
   overflow:scroll;
-  background-color: black;
-  
+  background-color: aliceblue;  
 }
 
 .modal.open material-icons-outlined{
