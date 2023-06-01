@@ -28,7 +28,7 @@ const ImageLIst = ({ images }) => {
                     <button onClick={() => resetTransform()}>Reset ↻</button>
                     <button onClick={() => setModal(false)}>Close ✖</button>
                 </div>
-                <br></br>
+                <br/>
                 <div>
                   <TransformComponent>
                     <img src={newUrl} />
