@@ -30,9 +30,9 @@ const ImageLIst = ({ images }) => {
                 </div>
                 <br></br>
                 <div>
-                <TransformComponent>
-                  <img src={newUrl} />
-                </TransformComponent>
+                  <TransformComponent>
+                    <img src={newUrl} />
+                  </TransformComponent>
                 </div>
                 </div>
             )}

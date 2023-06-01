@@ -4,7 +4,7 @@ import salesatwork from "../assets/salesatwork.png"
 const Header = ({ title }) => {
     return (
         <header>
-          <a href="https://vitejs.dev" target="_blank">
+          <a href="https://salesatwork.com/" target="_blank">
            <img src={salesatwork} className="logo" alt="Salesatwork logo" />
           </a>
             <h2>{title}</h2>
