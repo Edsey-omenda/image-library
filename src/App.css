@@ -53,7 +53,7 @@ footer {
   -webkit-column-width: 33%;
   -moz-column-width: 33%;
   column-width: 33%;
-  padding: 0 12px
+  padding: 0 12px;
 }
 
 .images .pics{
@@ -66,6 +66,27 @@ footer {
 
 .images .pics:hover{
   filter: opacity(0.8);
+}
+
+/* Adding responsiveness to the application */
+
+@media (max-width: 992px){
+  .images{
+    -webkit-column-count: 2;
+    -moz-column-count: 2;
+    column-count: 2;
+  }
+}
+
+@media (max-width: 480px){
+  .images{
+    -webkit-column-count: 1;
+    -moz-column-count: 1;
+    column-count: 1;
+    -webkit-column-width: 100%;
+    -moz-column-width: 100%;
+    column-width: 100%;
+  }
 }
 
 /* modal styling */
