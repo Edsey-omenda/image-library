@@ -55,8 +55,8 @@ function App() {
         "imageUrl": "https://images.unsplash.com/photo-1666919643134-d97687c1826c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDF8MHxlZGl0b3JpYWwtZmVlZHwyNnx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=500&q=60"
       }
 ])
-  const[error, setError] = useState("")
-  const [isLoading, setIsLoading] = useState(true)
+  // const[error, setError] = useState("")
+  // const [isLoading, setIsLoading] = useState(true)
 
   // useEffect(() =>{
       
@@ -84,7 +84,6 @@ function App() {
   return (
     <>
       <Header  title="Sales At Work Image Library" />
-      {isLoading  && <p>Loading Images...</p>}
       <ImageList 
         images={images}
       />
