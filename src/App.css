@@ -36,7 +36,6 @@ body {
   background-color: rgb(65, 88, 208);
   color: orange;
   display: flex;
-  /* justify-content: space-between; */
   align-items: center;
 }
 
@@ -50,6 +49,11 @@ footer {
   display: grid;
   place-content: center;
 } 
+
+.tools{
+  font-size: larger;
+  position: relative;
+}
 
 /* image class styling */
 
@@ -129,6 +133,8 @@ ul > li > h3{
   visibility: visible;
   opacity: 1;
   transform: scale(1);
+  padding-right: 50px;
+  background-color: aliceblue; 
 }
 
 .modal img{
