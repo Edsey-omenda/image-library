@@ -14,11 +14,13 @@ The image library renders images as lists:
 * CSS.
 * Json-server
 
-## Json-server
+## Json-server setup
 * Install json-server with the command `npm install json-server --save-dev`
 * Create a json file `db.json` and add data inside the file.
 * Run json-server locally through the command `json-server --watch db.json --port 3000`
 
+## Live link
+https://image-library-pink.vercel.app/
 
 <!-- http://localhost:3000/images -->
 
