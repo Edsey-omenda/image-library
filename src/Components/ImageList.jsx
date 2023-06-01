@@ -15,7 +15,7 @@ const ImageLIst = ({ images }) => {
     return (
         <div className='imagelist'>
         <div className={modal ? "modal open" : "modal"}>
-                {/* <TransformWrapper
+                <TransformWrapper
             initialScale={1}
             initialPositionX={200}
             initialPositionY={100}
@@ -36,7 +36,7 @@ const ImageLIst = ({ images }) => {
                 </div>
                 </div>
             )}
-            </TransformWrapper> */}
+            </TransformWrapper>
         </div>
         <ul className='images'>
          {images.map((image) => (
