@@ -35,7 +35,7 @@ function App() {
     <>
       <Header  title="Sales At Work Image Library" />
       <ImageList 
-        
+        images={images}
       />
       <Footer />
     </>
